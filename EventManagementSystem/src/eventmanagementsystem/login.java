@@ -88,6 +88,9 @@ public class login extends JFrame implements ActionListener {
                   if(user.equals("User")){
                       new User().setVisible(true);
                   }
+                  else if(user.equals("Admin")){
+                      new admin().setVisible(true);
+                  }
                   else if(user.equals("Vendor")){
                       new Vendor().setVisible(true);
                   }
